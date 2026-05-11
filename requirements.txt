@@ -3,8 +3,8 @@ numpy
 pandas
 # FACE RECOGINATION
 scikit-learn
-#dlib-bin
-dlip-20.0.99-cp314-cp314-win_amd64.whl
+dlib-bin
+# dlip-20.0.99-cp314-cp314-win_amd64.whl
 
 git+https://github.com/ageitgey/face_recognition_models
 setuptools<70.0.0
