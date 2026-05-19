@@ -135,6 +135,10 @@ def teacher_tab_take_attendance():
 
     st.divider()
 
+    has_photos = bool(st.session_state.attendance_images)
+
+    c1, c2, c3 = st.columns(3)
+
 
     if st.session_state.attendance_images:
 
