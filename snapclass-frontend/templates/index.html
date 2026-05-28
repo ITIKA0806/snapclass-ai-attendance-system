@@ -4,7 +4,7 @@
 
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 
-        <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo_snapclass.png') }}">
+        <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/final_logo.png') }}">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,13 +15,13 @@
         <nav class="navbar">
 
             <div class="logo">
-                <img src="{{ url_for('static', filename='img/logo_snapclass.png') }}" style="height:32px" alt="SnapClass Logo">
+                <img src="{{ url_for('static', filename='img/final_logo.png') }}" style="height:32px" alt="SnapClass Logo">
                 <div class="logo-text">SnapClass</div>
             </div>
 
 
             <div class="nav-links">
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
                 <a href="#features">Features</a>
                 <a href="#journey">Journey</a>
                 <a href="#tech">Tech Stack</a>
@@ -30,7 +30,7 @@
 
             <div class="nav-cta">
                 <a href="https://snapclass-smart.streamlit.app/" class="btn-pill">
-                    Start AI Attendance
+                    Get Started
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z" clip-rule="evenodd"></path></svg>
                 </a>
             </div>
@@ -57,7 +57,7 @@
 
             <div class="floating-card card-left">
                 <div class="card-img">
-                    <img src= {{ url_for('static', filename='img/image.png') }}#"<!-- Paste updated photo here -->
+                    <img src= {{ url_for('static', filename='img/Dashboard_picture.jpg') }}#"<!-- Paste updated photo here -->
                 </div>
 
             </div>
@@ -65,7 +65,7 @@
 
             <div class="floating-card card-right">
                 <div class="card-img">
-                    <img src="{{ url_for('static', filename='img/image.png') }}"<!-- Paste updated photo here -->
+                    <img src="{{ url_for('static', filename='img/voice_attendance.jpg') }}"<!-- Paste updated photo here -->
                 </div>
 
             </div>
@@ -108,7 +108,7 @@
 
     <section id="journey" class="teacher-flow">
         <div class="flow-container">
-            <div class="section-tag" style="text-align: center; margin-bottom: 40px; display:block">Workflow</div>
+            <div class="section-tag" style="text-align: center; margin-bottom: 40px; display:block; color: black; font-weight: bold;">-- Workflow --</div>
             <h2 style="text-align: center; font-size:3.5rem; margin-bottom: 80px;">The Teacher's Journey</h2>
 
             <div class="flow-step">
@@ -122,7 +122,7 @@
                 </div>
 
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/image.png') }}" alt="image">
+                    <img src="{{ url_for('static', filename='img/login_new.jpg') }}" alt="image">
                 </div>
             </div>
 
@@ -138,7 +138,7 @@
                 </div>
 
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/image.png') }}" alt="image">
+                    <img src="{{ url_for('static', filename='img/Dashboard_picture.jpg') }}" alt="image">
                 </div>
             </div>
 
@@ -153,7 +153,7 @@
                 </div>
 
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/image.png') }}" alt="image">
+                    <img src="{{ url_for('static', filename='img/Subject_addition.jpg') }}" alt="image">
                 </div>
             </div>
 
@@ -162,7 +162,7 @@
             <div class="flow-step">
                 <div class="flow-content">
                     <div class="step-badge">STEP 04</div>
-                    <h3>FcaeID Attendance</h3>
+                    <h3>FaceID Attendance</h3>
 
                     <p>
                         Use high-speed computer vision to scan the entire room. Our AI identifies every student from  a single class photo in milliseconds.
@@ -190,7 +190,7 @@
                 </div>
 
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/image.png') }}" alt="image">
+                    <img src="{{ url_for('static', filename='img/voice_attendance.jpg') }}" alt="image">
                 </div>
             </div>
 
@@ -201,11 +201,11 @@
                     <h3>Actionable Records</h3>
 
                     <p>
-                        Review and manage historical logs. View confidence scores, download CSV repots and track long-term attendance trends.
+                        Review and manage historical logs. View confidence scores, download CSV reports and track long-term attendance trends.
                 </div>
 
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/image.png') }}" alt="image">
+                    <img src="{{ url_for('static', filename='img/Attendance_record.jpg') }}" alt="image">
                 </div>
             </div>
 
@@ -232,7 +232,7 @@
             <div class="tech-item">
                 <div class="tech-card">
                     <div class="t-icon">👁️</div>
-                    <h4>Face Registraction</h4>
+                    <h4>Face Recognition</h4>
                     <p>Leveraging FaceRecognition and Dlib for high-fidelity facial biometrics.</p>
                     <span class="tech-tag">Vision AI</span>
                 </div>            
@@ -263,8 +263,8 @@
 
     <section id="student-journey" class="teacher-flow">
         <div class="flow-container">
-            <div class="section-tag" style="text-align: center; margin-bottom: 40px; display:block">Workflow</div>
-            <h2 style="text-align: center; font-size:3.5rem; margin-bottom: 80px;">The Teacher's Journey</h2>
+            <div class="section-tag" style="text-align: center; margin-bottom: 40px; display:block; color: black; font-weight: bold;">-- Workflow --</div>
+            <h2 style="text-align: center; font-size:3.5rem; margin-bottom: 80px;">The Student's Journey</h2>
 
             <div class="flow-step">
                 <div class="flow-content">
@@ -272,12 +272,12 @@
                     <h3>Instant Enrollment</h3>
 
                     <p>
-                        Student join courses in seconds using unique QR codes or course links provided by their teachers. No tedious sign-up forms.
+                        Students join courses in seconds using unique QR codes or course links provided by their teachers. No tedious sign-up forms.
                     </p>
                 </div>
 
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/image.png') }}" alt="image">
+                    <img src="{{ url_for('static', filename='img/face_id.jpg') }}" alt="image">
                 </div>
             </div>
 
@@ -293,7 +293,7 @@
                 </div>
 
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/image.png') }}" alt="image">
+                    <img src="{{ url_for('static', filename='img/voice_audio_enrollment.jpg') }}" alt="image">
                 </div>
             </div>
 
@@ -309,7 +309,7 @@
                 </div>
 
                 <div class="flow-image">
-                    <img src="{{ url_for('static', filename='img/image.png') }}" alt="image">
+                    <img src="{{ url_for('static', filename='img/enrolled.jpg') }}" alt="image">
                 </div>
             </div>   
 
@@ -330,7 +330,7 @@
         <div class="footer-grid">
             <div class="footer-brand">
                 <div class="logo">
-                    <img src="{{ url_for('static', filename='img/logo_snapclass.png') }}" style="height:32px" alt="SnapClass Logo">
+                    <img src="{{ url_for('static', filename='img/final_logo.png') }}" style="height:32px" alt="SnapClass Logo">
                     <div class="logo-text">SnapClass</div>
                 </div>
 
@@ -398,7 +398,7 @@
                     </li>
 
                     <li> 
-                        <a href="#">Terms and Condition</a>
+                        <a href="#">Terms and Conditions</a>
                     </li>
                 </ul>
             </div>

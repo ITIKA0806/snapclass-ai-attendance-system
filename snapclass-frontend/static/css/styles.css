@@ -179,7 +179,7 @@ h4 {
 
 .floating-card {
     position: absolute;
-    width: 320px;
+    width: 280px;
     background-color: white;
     padding: 14px;
     border-radius: 36px;
@@ -197,13 +197,13 @@ h4 {
 }
 
 .card-left{
-    left: 40px;
+    left: 60px;
     top: 58%;
     transform: translateY(-50%);
 }
 
 .card-right{
-    right: 40px;
+    right: 60px;
     top: 58%;
     transform: translateY(-50%);
 }
