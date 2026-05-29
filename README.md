@@ -8,6 +8,12 @@ SnapClass is an AI-powered classroom attendance management system built with Str
 
 Designed to reduce manual attendance effort while improving classroom efficiency, SnapClass provides separate teacher and student portals with a clean and interactive user experience.
 
+## Live Demo
+
+Try SnapClass live here:
+
+**Launch App:** [SnapClass Live Demo](https://sc-landing-page-two-gamma.vercel.app/)
+
 ---
 
 ## Demo Screenshot
